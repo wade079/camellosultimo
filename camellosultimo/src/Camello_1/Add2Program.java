@@ -39,9 +39,7 @@ public class Add2Program extends GraphicsProgram {
 
 
         setSize(900, 580);
-        add(new JButton("Start"), SOUTH);
-        add(new JButton("Reset"), SOUTH);
-        addActionListeners();
+
 
         for (int i = 0; i < 870; i++) {
             for (int j = 0; j < 6; j++) {
