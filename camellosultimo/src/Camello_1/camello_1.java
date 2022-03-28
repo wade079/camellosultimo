@@ -97,10 +97,10 @@ class camell_flipat extends camello_1{
         int pos_movidas = getRandomNumber(min,max);
 
         if (avanza){
-            this.pos=this.pos+pos_movidas;
+            this.pos=this.pos+(pos_movidas*2);
             avanza=false;
         }else{
-            this.pos=this.pos-pos_movidas;
+            this.pos=this.pos-(pos_movidas/2);
 
             if (this.pos<=0 ){
                 this.pos=0;
