@@ -8,7 +8,7 @@ public class Add2Program extends GraphicsProgram {
         new Add2Program().start(args);
     }
 
-    public void run() {
+    public void run() { 
         setSize(900, 580);//tamaño del canvas
 
         GImage fondo = new GImage("Camello_1\\desert2.jpg");//ruta del fondo
