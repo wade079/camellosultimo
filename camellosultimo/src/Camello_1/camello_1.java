@@ -3,10 +3,10 @@ package Camello_1;
 public class camello_1 {
 
     private String nombre;
-    public int pos = 0;
+    protected int pos = 0;
     private final int pos_final = 900;
-    public int min = 1;
-    public int max = 15;
+    protected int min = 1;
+    protected int max = 15;
 
     public camello_1(String nombre) {//Metodo constructor para asignar un nombre al camello
 
